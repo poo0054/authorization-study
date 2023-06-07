@@ -11,6 +11,7 @@
 
     <modules>
         <module>test</module>
+        <module>samples</module>
     </modules>
 
     <properties>
@@ -38,6 +39,11 @@
                 <artifactId>spring-security-oauth2-authorization-server</artifactId>
                 <version>${spring-security-oauth2-authorization-server.version}</version>
             </dependency>
+            <!--  <dependency>
+                  <groupId>org.springframework.security</groupId>
+                  <artifactId>spring-boot-starter-oauth2-client</artifactId>
+                  <version>${spring-boot-starter-oauth2-client.version}</version>
+              </dependency>-->
         </dependencies>
     </dependencyManagement>
 

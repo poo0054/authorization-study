@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.github.poo0054</groupId>
+        <artifactId>authorization-study</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>samples</artifactId>
+
+    <modules>
+        <module>messages-resource</module>
+        <module>messages-client</module>
+        <module>federated-identity-authorizationserver</module>
+        <module>default-authorizationserver</module>
+        <module>custom-consent-authorizationserver</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <packaging>pom</packaging>
+
+    <dependencies>
+
+    </dependencies>
+
+</project>
